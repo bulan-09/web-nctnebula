@@ -1,0 +1,682 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    color:  inherit;
+    text-decoration: none;
+}
+
+.kotak {
+    padding: 15px 0;
+    background-color: rgb(163, 247, 38);
+}
+
+header h1 {
+    float: left;
+    padding: 15px 0;
+    color: rgb(90, 141, 13);
+}
+
+header ul {
+    float: right;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 24px 10px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    background-color: rgb(163, 247, 38);
+    color: white;
+}
+
+.active {
+    background-color: rgb(163, 247, 38);
+    color: white;
+}
+
+.banner {
+    height: 65vh;
+    background-image: url('../bejibun.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(163, 247, 38, .6);
+}
+
+.banner h2 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+
+.banner h2 a {
+    color: yellow;
+}
+
+section {
+    padding: 50px 0;
+}
+
+/* punya sejarah */
+.label {
+    background-color: rgb(163, 247, 38);
+    color: white;
+}
+
+.sejarah h2 {
+    color: green;
+}
+
+section h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sejarah p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.sejarah img {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+section h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: darkgreen;
+}
+
+/* punya member */
+.tabel {
+    background-color: rgb(163, 247, 38);
+    color: white;
+}
+
+.member h2 {
+    color: green;
+}
+
+.member p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+/* punya unit */
+.grup {
+    border: 3px solid rgb(163, 247, 38);
+    background-color: rgb(163, 247, 38);
+    color: white;
+}
+
+.unit {
+    color: green;
+}
+
+.unit p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+/* punya unit */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+}
+
+.project {
+    padding: 25px;
+    background-color: rgb(166, 255, 0);
+    border: 1px solid rgb(166, 255, 0);
+    text-align: center;
+    border-radius: 5px;
+    transition: 0,5s;
+}
+
+.project:hover {
+    padding: 25px;
+    background-color: rgb(90, 141, 13);
+    border: 1px solid rgb(166, 255, 0);
+    text-align: center;
+    border-radius: 5px;
+    transition: 0,5s;
+}
+
+/* punya nctu */
+.cover {
+    height: 40vh;
+    background-image: url('../nctu.webp');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.cover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(163, 247, 38, .6);
+}
+
+.cover h2 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+
+.nctu h2 {
+    color: green;
+}
+
+.nctu p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.grup p a {
+    color: green;
+}
+
+h4 {
+    color: green;
+    text-align: center;
+}
+
+/* punya 127 */
+.gambar {
+    height: 55vh;
+    background-image: url('../nct127.jpeg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.gambar:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(163, 247, 38, .6);
+}
+
+.gambar h2 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+
+.nct127 h2 {
+    color: green;
+}
+
+.ijo {
+    background-color: rgb(163, 247, 38);
+}
+
+.ijo p {
+    color: white;
+}
+
+.ijo p a {
+    color: green;
+}
+
+.nct127 p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.anggota h2 {
+    color: green;
+}
+
+.anggota img {
+    border: 2px solid;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.anggota h3 {
+    color: black;
+    margin-bottom: 70px;
+}
+
+/* punya dreamies */
+.lanscape {
+    height: 50vh;
+    background-image: url('../nctmimpi.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.lanscape:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(163, 247, 38, .6);
+}
+
+.lanscape h2 {
+    color: white;
+    z-index: 1;
+    border: 3px solid #fff;
+}
+
+.nctdream h2 {
+    color: green;
+}
+
+.mini {
+    background-color: rgb(163, 247, 38);
+}
+
+.mini p {
+    color: white;
+}
+
+.mini p a {
+    color: green;
+}
+
+.nctdream p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.orang h2 {
+    color: green;
+}
+
+.orang img {
+    border: 2px solid;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.orang h3 {
+    color: black;
+    margin-bottom: 70px;
+}
+
+/* punya wayv */
+.cina {
+    height: 50vh;
+    background-image: url('../cocin.webp');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.cina:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(163, 247, 38, .6);
+}
+
+.cina h2 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+
+.wayv h2 {
+    color: green;
+}
+
+.vv {
+    background-color: rgb(163, 247, 38);
+}
+
+.vv p {
+    color: white;
+}
+
+.vv p a {
+    color: green;
+}
+
+.wayv p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.ganteng h2 {
+    color: green;
+}
+
+.ganteng img {
+    border: 2px solid;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.ganteng h3 {
+    color: black;
+    margin-bottom: 70px;
+}
+
+/* punya dojaejung */
+.trio {
+    height: 50vh;
+    background-image: url('../dojaejung.jpeg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.trio:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(163, 247, 38, .6);
+}
+
+.trio h2 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+
+.dojaejung h2 {
+    color: green;
+}
+
+.djj {
+    background-color: rgb(163, 247, 38);
+}
+
+.djj p {
+    color: white;
+}
+
+.djj p a {
+    color: green;
+}
+
+.dojaejung p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.bertiga h2 {
+    color: green;
+}
+
+.bertiga img {
+    border: 2px solid;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.bertiga h3 {
+    color: black;
+    margin-bottom: 70px;
+}
+
+/* punya wish */
+.enam {
+    height: 50vh;
+    background-image: url('../harap3.jfif');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.enam:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(163, 247, 38, .6);
+}
+
+.enam h2 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+
+.wish h2 {
+    color: green;
+    margin-bottom: 20px;
+}
+
+.harap {
+    background-color: rgb(163, 247, 38);
+}
+
+.harap p {
+    color: white;
+}
+
+.harap p a {
+    color: green;
+}
+
+.wish p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.last h2 {
+    color: green;
+}
+
+.last img {
+    border: 2px solid;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.last h3 {
+    color: black;
+    margin-bottom: 70px;
+}
+
+/* punya lagu */
+
+.musik {
+    background-color: rgb(163, 247, 38);
+}
+
+.musik p {
+    color: white;
+}
+
+.musik p a {
+    color: green;
+}
+
+.lagu h2 {
+    color: green;
+    margin-bottom: 15px;
+}
+
+.lagu img {
+    border: 2px solid;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.lagu a {
+    color: steelblue;
+}
+
+section h4 {
+    margin-top: 80px;
+}
+
+/* punya fandom */
+.rumput {
+    height: 50vh;
+    background-image: url('../banyakijo3.jfif');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.rumput:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(163, 247, 38, .6);
+}
+
+.rumput h2 {
+    color: white;
+    z-index: 1;
+    border: 3px solid #fff;
+}
+
+.adudu h2 {
+    color: green;
+}
+
+.hijau {
+    background-color: rgb(163, 247, 38);
+}
+
+.hijau p {
+    color: white;
+}
+
+.hijau p a {
+    color: green;
+}
+
+.adudu p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.kotakijo h2 {
+    color: green;
+}
+
+.kotakijo img {
+    border: 2px solid;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.kotakijo p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.adudu img {
+    float: left;
+    border: 2px solid;
+    margin-right: 25px;
+}
